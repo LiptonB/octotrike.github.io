@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Contact
 ---
 You can reach the Trike contributors via 
