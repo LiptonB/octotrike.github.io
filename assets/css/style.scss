@@ -5,8 +5,15 @@ body {
 	font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a {
+a:link, a:visited {
 	text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+	text-decoration: underline;
+}
+
+a:link, a:visited, h1 {
 	color: #3490dc;
 }
 
