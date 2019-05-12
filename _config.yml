@@ -6,3 +6,6 @@ defaults:
       path: ""
     values:
       layout: "default"
+collections:
+  talks:
+    output: true
