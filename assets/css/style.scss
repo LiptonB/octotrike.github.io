@@ -1,8 +1,19 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+body {
+	font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-a:hover, a:focus {
-	font-weight: inherit;
+a {
+	text-decoration: none;
+	color: #3490dc;
+}
+
+.content p, .content ul {
+	margin-bottom: 1rem;
+}
+
+.content li {
+	margin-bottom: 0.5rem;
 }

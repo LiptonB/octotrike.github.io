@@ -1,6 +1,11 @@
-<aside class="menu">
-	<ul class="menu-list">
-		<li><a href="{% link index.md %}">Home</a></li>
-		<li><a href="{% link talks.md %}">Talks</a></li>
+<nav>
+	<ul class="list-reset">
+		{% for item in site.data.navigation %}
+			<li>
+				<a href="{{ item.link }}">
+					{{ item.name }}
+				</a>
+			</li>
+		{% endfor %}
 	</ul>
-</aside>
+</nav>
