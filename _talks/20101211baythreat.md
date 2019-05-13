@@ -30,5 +30,4 @@ missed anything.
 # Slides & Spreadsheet
 
 [{{ page.name }}](Trike-BayThreat-2010.pptx)
-discusses <a href="http://trike.svn.sourceforge.net/viewvc/trike/trunk/src/Trike.xlsx?revision=10">this
-version of the Trike spreadsheet</a>.
+discusses [this version of the Trike spreadsheet](http://trike.svn.sourceforge.net/viewvc/trike/trunk/src/Trike.xlsx?revision=10).
