@@ -1,4 +1,5 @@
 title: octotrike.org
+author: trikers
 logo: images/octotrike_logo.png
 defaults:
   -
@@ -9,3 +10,5 @@ defaults:
 collections:
   talks:
     output: true
+plugins:
+  - jekyll-seo-tag
