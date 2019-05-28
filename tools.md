@@ -1,5 +1,6 @@
 ---
 title: Tools
+description: Download, installation, use & versioning information for the Trike tool.
 ---
 
 There are two implementations of Trike.  One is a spreadsheet, and the other is a standalone desktop tool.  We have big plans for the latter (read more [below](#standalone)), but unless you are a Trike or Smalltalk developer, you want the spreadsheet.
@@ -22,6 +23,7 @@ If you are seeing a bug no one has reported in any version of the spreadsheet, p
 # <a name="standalone">Standalone Tool</a>
 
 If you started following Trike back in the dawn of time, you probably saw or played our standalone desktop tool.  This tool was written in Smalltalk, specifically Squeak.  It implements methodology version 1, which is now fairly outdated.  It is mildly buggy and does not implement file import or export.  We are not maintaining it in any way.  We mention it here mostly for historical reasons, but also because some of us got used to reading its style of intended actions grid.  If you want to look at its code or play with it yourself, you will need to [download Trike 1.1.2a for your OS](https://sourceforge.net/projects/trike/files/trike/1.1.2a/).  If your OS is not listed, you will need to download the generic files and supply your own [Squeak](http://www.squeak.org/) VM for your OS. 
+
 The future of Trike is also a standalone desktop tool written in Smalltalk.  It will implement methodology version 2.  It will do file import and export, likely using an XML-based file format, and peer to peer collaboration.  It is in the pre-alpha stage.  We have a design and threat model, and are in the process of moving our code base from SqueakSource and our laptops (bad us), where it has been living, to SourceForge.  If you want to play, you will soon be able to:
 * follow these [instructions for setting up a Trike development environment](http://trike.wiki.sourceforge.net/Development+Environment) and likely
 * [contact us](/contact.shtml) or poke around elsewhere on [the Trike wiki](http://trike.wiki.sourceforge.net/)

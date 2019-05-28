@@ -1,5 +1,6 @@
 ---
-title: Home
+title: Trike
+description: Overview of the Trike project.
 ---
 Trike is an open source threat modeling methodology and tool.  The project began in 2006 as an attempt to improve the efficiency and effectiveness of existing threat modeling methodologies, and is being actively used and developed.
 
