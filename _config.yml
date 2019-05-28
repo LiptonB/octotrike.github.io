@@ -10,5 +10,6 @@ defaults:
 collections:
   talks:
     output: true
+  faq:
 plugins:
   - jekyll-seo-tag
