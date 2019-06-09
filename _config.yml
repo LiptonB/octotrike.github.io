@@ -7,6 +7,12 @@ defaults:
       path: ""
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
 collections:
   talks:
     output: true
