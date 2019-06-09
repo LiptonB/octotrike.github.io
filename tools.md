@@ -12,8 +12,8 @@ Almost everyone who is currently using Trike to create threat models of actual s
 If you are just getting started, you will want to [download the latest publicly released Trike spreadsheet and help file](http://sourceforge.net/projects/trike/files/latest/download?source=files).
 	
 If you would like to be one of our alpha testers, or are seeing a bug someone has reported, you may want to try:
-* [the latest development version of the Trike spreadsheet](https://sourceforge.net/apps/trac/trike/browser/spreadsheet/trunk/src/Trike.xlsx)
-* [the latest development version of the Trike help file](https://sourceforge.net/apps/trac/trike/browser/spreadsheet/trunk/docs/help/TrikeHelp.xlsx)
+* [the latest development version of the Trike spreadsheet](https://sourceforge.net/p/trike/code/HEAD/tree/spreadsheet/trunk/src/Trike.xlsx)
+* [the latest development version of the Trike help file](https://sourceforge.net/p/trike/code/HEAD/tree/spreadsheet/trunk/docs/help/TrikeHelp.xlsx)
 * [the latest work-in-progress spreadsheet help](https://sourceforge.net/apps/trac/trike/wiki/Spreadsheet%20Help) on the wiki, since we are trying to move away from putting help in a spreadsheet
 
 All versions of the spreadsheet are using Trike methodology version 1.5, which is an interim methodology bridging the very large gap between version 1 and version 2.
