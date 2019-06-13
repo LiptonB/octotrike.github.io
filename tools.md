@@ -18,7 +18,7 @@ If you would like to be one of our alpha testers, or are seeing a bug someone ha
 
 All versions of the spreadsheet are using Trike methodology version 1.5, which is an interim methodology bridging the very large gap between version 1 and version 2.
 	
-If you are seeing a bug no one has reported in any version of the spreadsheet, please take the time to [let us know](contact.shtml) so we can fix it for you.
+If you are seeing a bug no one has reported in any version of the spreadsheet, please take the time to [let us know]({{ "/contact" | relative_url }}) so we can fix it for you.
 
 # <a name="standalone">Standalone Tool</a>
 
@@ -26,4 +26,4 @@ If you started following Trike back in the dawn of time, you probably saw or pla
 
 The future of Trike is also a standalone desktop tool written in Smalltalk.  It will implement methodology version 2.  It will do file import and export, likely using an XML-based file format, and peer to peer collaboration.  It is in the pre-alpha stage.  We have a design and threat model, and are in the process of moving our code base from SqueakSource and our laptops (bad us), where it has been living, to SourceForge.  If you want to play, you will soon be able to:
 * follow these [instructions for setting up a Trike development environment](http://trike.wiki.sourceforge.net/Development+Environment) and likely
-* [contact us](/contact.shtml) or poke around elsewhere on [the Trike wiki](http://trike.wiki.sourceforge.net/)
+* [contact us]({{ "/contact" | relative_url }}) or poke around elsewhere on [the Trike wiki](http://trike.wiki.sourceforge.net/)

@@ -11,11 +11,11 @@
 <body>
 <div id="box">
 	<div id="hdr">
-		<a href="/"><span style="color: #A1A1A1;">Octo</span>trike<span style="color: #A1A1A1;">.org</span></a>
+		<a href="{{ "/" | relative_url }}"><span style="color: #A1A1A1;">Octo</span>trike<span style="color: #A1A1A1;">.org</span></a>
 	</div>
 	<div id="nbr">
 
-	{% for item in site.data.navigation %}<a class="nbritem" href="{{ item.link }}"> {{ item.name }}</a>{% endfor %}
+	{% for item in site.data.navigation %}<a class="nbritem" href="{{ item.link | relative_url }}"> {{ item.name }}</a>{% endfor %}
 	</div>
 	<table class="main" cellspacing="0">
 
@@ -29,7 +29,7 @@
 				Octopus
 			</div>
 <p align="center">
-<img src="/images/octotrike_logo.png" width="220" height="271" alt="" border="0">
+<img src="{{ "/images/octotrike_logo.png" | relative_url }}" width="220" height="271" alt="" border="0">
 </p>
 		</div>
 
@@ -38,8 +38,8 @@
 				Download
 			</div>
 			<p>
-			<a href="{% link tools.md %}#spreadsheet">Spreadsheet</a><br>
-			<a href="{% link tools.md %}#standalone">Standalone Tool</a><br>
+			<a href="{{ site.baseurl }}{% link tools.md %}#spreadsheet">Spreadsheet</a><br>
+			<a href="{{ site.basurl }}{% link tools.md %}#standalone">Standalone Tool</a><br>
 			</p>
 		</div>
 
