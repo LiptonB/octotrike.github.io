@@ -17,10 +17,10 @@ jobs:
         #          jekyll/builder /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
       - name: Upload to Pages
         run: |
-          git config user.name "${{ github.actor }}" && \
-          git config user.email "${{ github.actor }}@users.noreply.github.com" && \
           git clone "https://${{ secrets.GH_PAT }}@github.com/LiptonB/trike-preview" && \
           cd trike-preview && \
+          git config user.name "${{ github.actor }}" && \
+          git config user.email "${{ github.actor }}@users.noreply.github.com" && \
           date > the-date && \
           git add the-date && \
           git commit -m "testing" && \
