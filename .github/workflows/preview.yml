@@ -10,18 +10,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-        #      - name: Jekyll Build
-        #        run: |
-        #          docker run \
-        #          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        #          jekyll/builder /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-      - name: Upload to Pages
+      - name: Jekyll Build
         run: |
-          git clone "https://${{ secrets.GH_PAT }}@github.com/LiptonB/trike-preview" && \
-          cd trike-preview && \
-          git config user.name "${{ github.actor }}" && \
-          git config user.email "${{ github.actor }}@users.noreply.github.com" && \
-          date > the-date && \
-          git add the-date && \
-          git commit -m "testing" && \
-          git push
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+          jekyll/builder /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: preview
+          path: _site
+          #- name: Upload to Pages
+          #  run: |
+          #    git clone "https://${{ secrets.GH_PAT }}@github.com/LiptonB/trike-preview" && \
+          #    cd trike-preview && \
+          #    git config user.name "${{ github.actor }}" && \
+          #    git config user.email "${{ github.actor }}@users.noreply.github.com" && \
+          #    date > the-date && \
+          #    git add the-date && \
+          #    git commit -m "testing" && \
+          #    git push
